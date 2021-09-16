@@ -1,0 +1,116 @@
+a/* Color Theme Swatches in Hex */
+.New-Jazz-Uniform-Colors-1-hex { color: #FFB500; }
+.New-Jazz-Uniform-Colors-2-hex { color: #B28412; }
+.New-Jazz-Uniform-Colors-3-hex { color: #085439; }
+.New-Jazz-Uniform-Colors-4-hex { color: #A714CC; }
+.New-Jazz-Uniform-Colors-5-hex { color: #540469; }
+
+/* Color Theme Swatches in RGBA */
+.New-Jazz-Uniform-Colors-1-rgba { color: rgba(255, 181, 0, 1); }
+.New-Jazz-Uniform-Colors-2-rgba { color: rgba(177, 131, 17, 1); }
+.New-Jazz-Uniform-Colors-3-rgba { color: rgba(8, 84, 56, 1); }
+.New-Jazz-Uniform-Colors-4-rgba { color: rgba(167, 20, 204, 1); }
+.New-Jazz-Uniform-Colors-5-rgba { color: rgba(84, 4, 105, 1); }
+
+/* Color Theme Swatches in HSLA */
+.New-Jazz-Uniform-Colors-1-hsla { color: hsla(42, 100, 50, 1); }
+.New-Jazz-Uniform-Colors-2-hsla { color: hsla(42, 81, 38, 1); }
+.New-Jazz-Uniform-Colors-3-hsla { color: hsla(158, 82, 18, 1); }
+.New-Jazz-Uniform-Colors-4-hsla { color: hsla(287, 82, 43, 1); }
+.New-Jazz-Uniform-Colors-5-hsla { color: hsla(287, 92, 21, 1); }
+
+body {
+	font-family:'Poppins', sans-serif;;
+	background-color: #FFB500;
+	margin: 0;
+	padding: 0;
+}
+
+#main_logo{
+	font-size: 45px;
+	float: left;
+	margin: 40px 50px;
+}
+
+
+header a {
+		color: white;
+		text-decoration: none;
+		font-size: 38px;
+		display: inline-block;
+		margin: 40px 50px;
+		position: relative;
+
+}
+
+.topnav_m{
+	padding-left: 30px;
+}
+
+header{
+	background-color: none;
+	text-align: right;
+	overflow: hidden;
+	margin: 0;
+}
+
+header a:hover{
+	color: black;
+}
+
+#banner{
+	text-align: right;
+	font-size: 1200%;
+	margin-top: 70px;
+	margin-bottom: 0%;
+	color: #A714CC;
+	line-height: 100%;
+}
+
+#Job_title{
+	font-size: 30px;
+	color: ghostwhite;
+	margin-top: 100px;
+	margin: 40px 50px;
+}
+
+span{
+	float: right;
+	font-size: 20px;
+	padding-top: 5px;
+}
+/*WORK*/
+#work{
+	background-position: center;
+	justify-content: center;
+	background-size: cover;
+	background-color: #A714CC;
+	background-image: -webkit-linear-gradient(30deg, #A714CC 47%, #260031 47%);
+	padding: 20px 0;
+	min-height: 550px;
+}
+
+#work .container {
+	color: ghostwhite;
+	font-size: 40px;
+	text-align: center;
+
+}
+
+.logos {
+	width: 35%;
+	hieght: 35%;
+	margin: 10px 70px auto;
+
+}
+
+#contact{
+	font-size: 45px;
+	padding-top: 50px;
+	margin: 40px 50px;
+	color: #A714CC;
+}
+
+#contact .one {
+	color: white;
+}
